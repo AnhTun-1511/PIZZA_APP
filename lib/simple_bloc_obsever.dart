@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'package:bloc/bloc.dart';
 // CHƯA HIỂU VỀ CÁI NÀY LẮM
+// Làm Bloc xử lý nghiệp vụ
 class SimpleBlocObsever extends BlocObserver{
   @override
   void onCreate(BlocBase bloc){
